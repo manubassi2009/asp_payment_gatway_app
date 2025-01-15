@@ -5,7 +5,7 @@ namespace payment_gatway_app.Services
 {
     public class StripePaymentService : IPaymentService
     {
-        private readonly string _apiKey = "sk_test_51QhH2mP0zKSAhI4dH3Pzfk9YAiAf8x47DY4XH2NXcRSUlgWjHg1aBgFoM3lhqI26BMELucK0w0q0iZ4uqEOgVbAk00gUgmFMI3";
+        private readonly string _apiKey = "api-key";
 
         public StripePaymentService()
         {
